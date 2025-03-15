@@ -7,7 +7,7 @@ The dataset is published on **Zenodo**, and the analysis is submitted to the **A
 
 ## **Dataset**
 The full dataset is available on **Zenodo**:  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxx)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15032283.svg)](https://doi.org/10.5281/zenodo.15032283)
 
 The dataset is divided into two observation periods:
 
@@ -59,13 +59,25 @@ jupyter notebook analysis.ipynb
 
 If you use this dataset or analysis in your research, please cite:
 
-- Zenodo Dataset: DOI: 10.5281/zenodo.xxxxx
+- Zenodo Dataset: DOI: 10.5281/zenodo.15032283
 - AGU Journal Paper: Pending publication
 
 ## Authors and Contributors
 
-- [Your Name], [Your Institution]
-- [Co-authors]
+-   Molina, Jorge
+    Richard, Euan
+    Giovanni, Secchia
+    Stalder, Diego
+    Bertoli, Mathias
+    Trepowski, Caleb
+    Baez, Oscar
+    Benitez Montiel, Carlos
+    Cho, Lucas
+    Cristaldo, Esteban
+    Barrios, Fernando Pio
+    Nuñez, Jesus
+    Cuevas, Alan
+
 
 ## License
 
