@@ -64,18 +64,18 @@ If you use this dataset or analysis in your research, please cite:
 
 ## Authors and Contributors
 
--   Molina, Jorge
-    Richard, Euan
-    Giovanni, Secchia
-    Stalder, Diego
-    Bertoli, Mathias
-    Trepowski, Caleb
-    Baez, Oscar
-    Benitez Montiel, Carlos
-    Cho, Lucas
-    Cristaldo, Esteban
-    Barrios, Fernando Pio
-    Nuñez, Jesus
+-   Molina, Jorge;
+    Richard, Euan;
+    Giovanni, Secchia;
+    Stalder, Diego;
+    Bertoli, Mathias;
+    Trepowski, Caleb;
+    Baez, Oscar;
+    Benitez Montiel, Carlos;
+    Cho, Lucas;
+    Cristaldo, Esteban;
+    Barrios, Fernando Pio;
+    Nuñez, Jesus;
     Cuevas, Alan
 
 
