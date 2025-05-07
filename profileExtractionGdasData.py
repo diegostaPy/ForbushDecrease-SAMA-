@@ -10,7 +10,7 @@ import datetime
 start=[datetime.datetime(2024, 5, 6),datetime.datetime(2024, 9, 16)]
 end=[datetime.datetime(2024, 6, 24, 23, 59),datetime.datetime(2024, 10, 31, 23, 59)]
 folder=['first_period','second_period']
-for dt,end in zip(start,end,folder)
+for dt,end in zip(start,end,folder):
     step = datetime.timedelta(hours=3)
     dates= []
     while dt <= end:
@@ -62,7 +62,7 @@ for dt,end in zip(start,end,folder)
 
     # Crear DataFrame final
     df = pd.concat([
-        pd.DataFrame({'date': dates, 'Ts': Tg, 'Ps': Pg}),
+        pd.DataFrame({'timestamp': dates, 'Ts': Tg, 'Ps': Pg}),
         T_cols, P_cols, H_cols
     ], axis=1)
 

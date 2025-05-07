@@ -3,7 +3,7 @@ import numpy as np
 lista=['first_period/profileweather.csv','second_period/profileweather.csv']
 for file in lista:
     # Leer archivo CSV generado previamente
-    df = pd.read_csv("data/"+file, parse_dates=['date'])
+    df = pd.read_csv("data/"+file, parse_dates=['timestamp'])
 
     # Inicializar lista para TMP_MSS
     tmp_mss_list = []
@@ -55,6 +55,10 @@ for file in lista:
 
     # Añadir columna al DataFrame
     df["TMP_MSS"] = tmp_mss_list
-
+    df.set_index('timestamp', inplace=True)
+    # Resample to 1-hour intervals and interpolate linearly
+    df_interp = df.resample('h').interpolate(method='linear')
+    # Optional: reset index if you want datetime as a column again
+    df_interp.reset_index(inplace=True)
     # Guardar resultados
-    df[["date", "Ps", "Ts", "TMP_MSS"]].to_csv("data/"+file[:-4]+"_teff.csv", index=False)
+    df_interp[["timestamp", "Ps", "Ts", "TMP_MSS"]].to_csv("data/"+file[:-4]+"_teff.csv", index=False)
