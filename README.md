@@ -42,6 +42,12 @@ The analysis of the dataset is performed using **Python** and **Jupyter Notebook
 - `analysisWithTeff.ipynb` – Notebook demonstrating a simplified analysis workflow, matching the published paper, with step-by-step explanations.
 - `temperaturaPresureCorrection.py` – Python script for correcting muon counts using atmospheric pressure and temperature data, generating figures and a corrected CSV.
 - `donwloadGdas.py` – Script to download GDAS meteorological data from NOAA FTP servers for further analysis.
+
+#### **New Analysis and Plotting Notebooks**
+- `plot_and_analysis.ipynb` – Notebook for visualizing and analyzing muon, pressure, temperature, neutron, and DST data for both periods. Includes hourly resampling, outlier removal, and comparative plots.
+- `plot_analysis_magnetic_and_muons.ipynb` – Notebook for joint analysis and plotting of magnetic field data (from Vasouras station) and muon data, including percent change calculations and event marking.
+
+#### **Other Files**
 - `requirements.txt` – List of dependencies required to run the analysis.  
 - `README.md` – Documentation of the repository.
 
@@ -72,6 +78,10 @@ To reproduce the analysis:
    jupyter notebook analysissecondperiod.ipynb
    # or
    jupyter notebook analysisWithTeff.ipynb
+   # or
+   jupyter notebook plot_and_analysis.ipynb
+   # or
+   jupyter notebook plot_analysis_magnetic_and_muons.ipynb
    ```
 
 ## **Citation**
